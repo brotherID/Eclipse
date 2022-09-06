@@ -1,0 +1,10 @@
+***********************************************
+ajouter diagramme de classe 
+***********************************************
+ajouter le plugin 
+dans eclipse cliquez sur help -> install new software -> add -> add repository -> clique sur archive -> choisir le fichier  objectaid-1.2.4.zip
+-> cliquez sur add -> suivant -> ... -> finish 
+***********************************************
+Pour créer un diagramme de classe dans eclipse
+clique droit sur le projet -> new -> others -> objectAid UML Diagram ->ObjectAid Class Diagram
+
