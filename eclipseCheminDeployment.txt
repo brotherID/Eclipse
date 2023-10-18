@@ -1,0 +1,9 @@
+D:\workspaceCaptureWebSSO_V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps  ( où eclipse met les deployed resources des war)
+D:\workspaceCaptureWebSSO\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps ( où eclipse met les deployed resources des war)
+D:\workspaceCaptureWebSSO_V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf  (où il y a le server.xml de eclipse)
+D:\workspaceCaptureWebSSO\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\conf (où il y a le server.xml de eclipse)
+
+soit le dossier tmp1 ou tmp0
+
+ceci est pour le cas de tomcat embarqué dans éclipse
+
