@@ -1,0 +1,5 @@
+-> cette configuration définit une ressource globale de type source de données JDBC pour se connecter à une base de données Microsoft SQL Server. Les applications déployées sur Tomcat peuvent utiliser cette ressource en se référant à son nom global, jdbc/ConnectDb, pour établir des connexions à la base de données. Assurez-vous de protéger les informations d'authentification, en particulier dans un environnement de production.
+
+<GlobalNamingResources>
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" global="jdbc/ConnectDb" maxActive="100" maxIdle="50" maxWait="10" minIdle="20" name="jdbc/ConnectDb" password="azerty01**" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=PCH_DATACENTER" username="sa"/> 
+</GlobalNamingResources>
