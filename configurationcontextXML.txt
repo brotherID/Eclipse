@@ -1,0 +1,4 @@
+la balise <ResourceLink> crée un lien vers une ressource globale de type source de données JDBC définie dans la configuration globale de Tomcat. Cela permet aux applications Web déployées sur Tomcat d'accéder à cette ressource partagée sans avoir à redéfinir la configuration de la source de données dans chaque application. Cette approche favorise la réutilisation des ressources et simplifie la gestion des connexions à la base de données.
+
+
+<ResourceLink auth="Container" global="jdbc/ConnectDb" name="jdbc/ConnectDb" type="javax.sql.DataSource"/>
